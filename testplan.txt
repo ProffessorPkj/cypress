@@ -1,0 +1,27 @@
+Test Plan
+
+Registration of a Patient:
+
+Verify that a new patient can successfully register on the portal.
+Validate different registration scenarios (e.g., with valid data, with invalid data, with existing email/phone number).
+Ensure proper validation messages are displayed for invalid inputs.
+Check that after successful registration, the patient can log in with the registered credentials.
+Login to the Portal by the Registered Patient:
+
+Ensure that registered patients can log in using their credentials.
+
+Verify login with correct credentials.
+Validate login with incorrect credentials (invalid username, password).
+Check for appropriate error messages on unsuccessful login attempts.
+Verify the redirection to the Home Page or Dashboard after successful login.
+Validation of User Information on Home Page and Account Section:
+
+Upon successful login, verify that patient information (name, contact details) displayed on the Home Page matches the registered details.
+Navigate to the Account section and validate that all registered user information (e.g., name, date of birth, contact information) is correctly displayed.
+Ensure that sensitive information (like password or personal details) are appropriately masked or not displayed where necessary.
+Adding a Driver's License by the Patient:
+
+Navigate to the section where a patient can add their Driver's License information.
+Verify that the patient can input and save details such as license number, issuing state, expiration date, etc.
+Validate that the entered Driver's License information persists and displays correctly upon subsequent visits to the portal.
+Ensure error handling for invalid inputs (e.g., incorrect format, missing fields).
